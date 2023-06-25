@@ -1,0 +1,27 @@
+﻿
+	O META o no unused namespace(s)
+
+	O TYPE o no unused namespace(s)
+
+	O LINK o no unused namespace(s)
+
+sequence Nester
+
+	>Compress
+	<<NesterCompress.cs
+
+	>CompressRaw
+	<<NesterCompressRaw.cs
+
+	>Object
+	>>NesterObject
+	<<<NesterObject.cs
+
+	>Prototype
+	<<NesterPrototype.cs
+
+	<Nester.cs
+
+	/debug\DEBUG/
+
+end sequence

@@ -1,0 +1,27 @@
+﻿
+	O META o no unused namepsace(s)
+
+	O TYPE o no unused namespace(s)
+
+	O LINK o no unused namespace(s)
+
+sequence Nested
+
+	>Compress
+	<<NestedCompress.cs
+
+	>CompressRaw
+	<<NestedCompressRaw.cs
+
+	>Object
+	>>NestedObject
+	<<<NestedObject.cs
+
+	>Prototype
+	<<NestedPrototype.cs
+
+	<Nested.cs
+
+	/debug\DEBUG/
+
+end sequence

@@ -1,0 +1,25 @@
+﻿
+	O META o no unused namespace(s)
+
+	O TYPE o no unused namespace(s)
+	
+	O LINK o no unused namespace(s)
+
+sequence Nest
+		
+	>Compress
+	<<NestCompress.cs
+
+	>CompressRaw
+	<<NestCompressRaw.cs
+
+	>Object
+	>>NestObject
+	<<<NestObject.cs
+
+	>Prototpye
+	<<NestPrototype
+
+	<Nest.cs
+
+end sequence
